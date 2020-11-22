@@ -5,6 +5,7 @@ import ItemModal from "../ItemModal";
 import AppNavbar from "../AppNavbar";
 import AppSideBar from "../AppSidebar/AppSidebar";
 import InfoBoxes from "../DashboardItems/InfoBoxes";
+import BalanceBox from "../BalanceItems/BalanceBox";
 
 function Dashboard() {
   return (
@@ -15,7 +16,7 @@ function Dashboard() {
         </div>
         <div className="second">
           <AppNavbar /> {/* navbar TOP  */}
-          <InfoBoxes />
+          <BalanceBox />
         </div>
       </div>
     </Fragment>

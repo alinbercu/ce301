@@ -5,8 +5,10 @@ import ItemModal from "../ItemModal";
 import AppNavbar from "../AppNavbar";
 import AppSideBar from "../AppSidebar/AppSidebar";
 import InfoBoxes from "../DashboardItems/InfoBoxes";
+import BalanceBox from "../BalanceItems/BalanceBox";
+import OrderBoxes from "../OrderSmsItems/OrderBoxes";
 
-function Dashboard() {
+function OrderSMS() {
   return (
     <Fragment>
       <div className="container1">
@@ -15,11 +17,11 @@ function Dashboard() {
         </div>
         <div className="second">
           <AppNavbar /> {/* navbar TOP  */}
-          <InfoBoxes />
+          <OrderBoxes />
         </div>
       </div>
     </Fragment>
   );
 }
 
-export default Dashboard;
+export default OrderSMS;

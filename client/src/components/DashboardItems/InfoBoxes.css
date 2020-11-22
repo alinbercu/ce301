@@ -1,0 +1,15 @@
+.welcomeBox {
+  border: 0.1px solid rgb(230, 230, 230);
+  border-radius: 20px;
+  width: 350px;
+  height: 110px;
+  -webkit-box-shadow: -5px 3px 300px -28px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: -5px 3px 300px -28px rgba(0, 0, 0, 0.39);
+  box-shadow: -5px 3px 300px -28px rgba(0, 0, 0, 0.39);
+}
+
+.boxWrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}

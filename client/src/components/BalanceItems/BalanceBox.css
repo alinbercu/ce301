@@ -1,0 +1,45 @@
+.balanceBox {
+  border: 0.1px solid rgb(230, 230, 230);
+  border-radius: 20px;
+  width: 90%;
+  height: 300px;
+  -webkit-box-shadow: -5px 3px 300px -28px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: -5px 3px 300px -28px rgba(0, 0, 0, 0.39);
+  box-shadow: -5px 3px 300px -28px rgba(0, 0, 0, 0.39);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.topDiv {
+  background-color: grey;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.currentBalanceBox {
+  border: 0.1px solid rgb(230, 230, 230);
+  border-radius: 20px;
+  width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+#amount,
+#payment,
+#paymentLabel,
+#amountLabel,
+#buttonBalance {
+  width: 96%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#paymentLabel {
+  margin-top: 15px;
+}
